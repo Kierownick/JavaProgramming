@@ -8,6 +8,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GithubDefaultAccount">
@@ -57,6 +62,7 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< Updated upstream
     <state width="1398" height="183" key="GridCell.Tab.0.bottom" timestamp="1582715469112">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -78,9 +84,40 @@
     <state width="1398" height="183" key="GridCell.Tab.0.right" timestamp="1582715469112">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+=======
+    <state width="699" height="183" key="GridCell.Tab.0.bottom" timestamp="1582734319374">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="699" height="183" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-280.2560.1440@0.0.1440.900" timestamp="1582734319374" />
+    <state width="1398" height="183" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582715469112" />
+    <state width="1878" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1582386192845" />
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877/-620.-1417.2560.1417@0.23.1440.877" timestamp="1582294403222" />
+    <state width="699" height="183" key="GridCell.Tab.0.center" timestamp="1582734319370">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="699" height="183" key="GridCell.Tab.0.center/0.0.1440.900/1440.-280.2560.1440@0.0.1440.900" timestamp="1582734319370" />
+    <state width="1398" height="183" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582715469110" />
+    <state width="1878" height="230" key="GridCell.Tab.0.center/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1582386192844" />
+    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.877/-620.-1417.2560.1417@0.23.1440.877" timestamp="1582294403221" />
+    <state width="699" height="183" key="GridCell.Tab.0.left" timestamp="1582734319368">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="699" height="183" key="GridCell.Tab.0.left/0.0.1440.900/1440.-280.2560.1440@0.0.1440.900" timestamp="1582734319368" />
+    <state width="1398" height="183" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582715469108" />
+    <state width="1878" height="230" key="GridCell.Tab.0.left/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1582386192844" />
+    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.877/-620.-1417.2560.1417@0.23.1440.877" timestamp="1582294403221" />
+    <state width="699" height="183" key="GridCell.Tab.0.right" timestamp="1582734319372">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="699" height="183" key="GridCell.Tab.0.right/0.0.1440.900/1440.-280.2560.1440@0.0.1440.900" timestamp="1582734319372" />
+>>>>>>> Stashed changes
     <state width="1398" height="183" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582715469112" />
     <state width="1878" height="230" key="GridCell.Tab.0.right/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1582386192845" />
     <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877/-620.-1417.2560.1417@0.23.1440.877" timestamp="1582294403222" />
+    <state x="431" y="173" key="MultipleFileMergeDialog" timestamp="1582734349852">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="431" y="173" key="MultipleFileMergeDialog/0.0.1440.900/1440.-280.2560.1440@0.0.1440.900" timestamp="1582734349852" />
     <state x="221" y="63" key="SettingsEditor" timestamp="1582715456769">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -89,6 +126,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1582388033412" />
+    <state x="344" y="170" key="git4idea.branch.GitSmartOperationDialog" timestamp="1582734344835">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="344" y="170" key="git4idea.branch.GitSmartOperationDialog/0.0.1440.900/1440.-280.2560.1440@0.0.1440.900" timestamp="1582734344835" />
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1582294045757">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
