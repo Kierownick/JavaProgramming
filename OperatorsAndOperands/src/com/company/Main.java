@@ -95,10 +95,12 @@ public class Main {
             System.out.println("wasCar is true");
         }
 
+
+
         int ageOfClient = 20;
-        boolean isEighteenOrOver = ageOfClient == 20 ? true : false;
+        boolean isEighteenOrOver = (ageOfClient == 20) ? true : false;
         if (isEighteenOrOver) {
-            System.out.println("Gość ma więcej niż 20 lat");
+            System.out.println("Gość ma 20 lat");
         }
 
 
