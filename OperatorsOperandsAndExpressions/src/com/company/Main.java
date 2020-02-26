@@ -15,11 +15,6 @@ public class Main {
 
         System.out.println("previousResult = " + previousResult);
 
-        /* Pomimo tego, że result został "zmieniony" Java traktuje previousResult jako
-        ten określony wcześniej, bo odwołuje się on do obiektu result z przeszłości, a
-        ten znika przy określeniu nowego result
-         */
-
         result = result * 10; //2 * 10 = 20
         System.out.println("2 * 10 = " + result);
 
@@ -88,6 +83,17 @@ public class Main {
         if (isCar) {
             System.out.println("This is not supposed to happen");
         }
-        if (!isCar) System.out.println("This is supposed to happen");
+        if (!isCar) {
+            System.out.println("This is supposed to happen");
+        }
+
+// Tenary Operator
+
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+        if (wasCar) {
+            System.out.println("wasCar is true");
+        }
+
     }
 }
