@@ -9,13 +9,15 @@ public class Main {
         int levelCompleted = 5;
         int bonus = 100;
 
-        calculateScore(true, 800, 5, 100);
+        int highScore = calculateScore(gameOver, score, levelCompleted, bonus);
+        System.out.println("Your final score was " + highScore);
 
         score = 10000;
         levelCompleted = 8;
         bonus = 200;
 
-        calculateScore(true, 10000, 8, 200);
+        highScore = calculateScore(gameOver, score, levelCompleted, bonus);
+        System.out.println("Your final score was " + highScore);
 
     }
 
@@ -24,7 +26,6 @@ public class Main {
         if (gameOver) {
             int finalScore = score + (levelCompleted * bonus);
             finalScore += 2000;
-            System.out.println("Your final score was " + finalScore);
             return finalScore;
         } else {
             return -1;
