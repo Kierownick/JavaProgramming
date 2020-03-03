@@ -4,24 +4,24 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String playersName = "Karwowski";
-        int position = 2;
-        String displayHighScorePosition = playersName + " managed to get into position " + position + " on the high score table!";
-        System.out.println(displayHighScorePosition);
-
-        int calculateHighScorePosition = 101;
-
-        if (calculateHighScorePosition > 1000) {
-            System.out.println("Calculate score is higher than 1000");
-        } else if (calculateHighScorePosition > 500 && calculateHighScorePosition < 1000) {
-            System.out.println("Score higher than 500 but lesser than 1000");
-        } else if (calculateHighScorePosition > 100 && calculateHighScorePosition < 500) {
-            System.out.println("Score higher than 100 but lesser than 500");
-        } else
-            System.out.println("Score is lesser than 100");
+        displayHighScorePosition("Karwowski", calculateHighScorePosition(1500));
+        displayHighScorePosition("Karwowski", calculateHighScorePosition(900));
+        displayHighScorePosition("Karwowski", calculateHighScorePosition(400));
+        displayHighScorePosition("Karwowski", calculateHighScorePosition(50));
     }
-    public static String displayHighScorePosition(String playersName, int position) {
-        
 
+    public static void displayHighScorePosition(String playersName, int position) {
+        System.out.println(playersName + " managed to get into position " + position + " on the high score table!");
+    }
+
+    public static int calculateHighScorePosition(int thePlayerScore) {
+        if (thePlayerScore >= 1000) {
+            return 1;
+        } else if (thePlayerScore >= 500 && thePlayerScore < 1000) {
+            return 2;
+        } else if (thePlayerScore >= 100 && thePlayerScore < 500) {
+            return 3;
+        } else
+            return 4;
     }
 }
