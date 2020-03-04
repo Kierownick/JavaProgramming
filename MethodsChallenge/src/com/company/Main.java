@@ -8,15 +8,26 @@ public class Main {
         int position = calculateHighScorePosition(900232323);
         displayHighScorePosition("Adrian", position);
 
-        // To jest moje podejście, wydaje się być bardziej czytelne
-        displayHighScorePosition("Karwowski",
-                calculateHighScorePosition(1500));
-        displayHighScorePosition("Kieras",
-                calculateHighScorePosition(900));
-        displayHighScorePosition("Adi",
-                calculateHighScorePosition(400));
-        displayHighScorePosition("Kierownick",
-                calculateHighScorePosition(50));
+        // A to moje, bez alokowania pamięci zmienną.
+        displayHighScorePosition(
+                "Karwowski",
+                calculateHighScorePosition(
+                        1500));
+
+        displayHighScorePosition(
+                "Kieras",
+                calculateHighScorePosition(
+                        900));
+
+        displayHighScorePosition(
+                "Adi",
+                calculateHighScorePosition(
+                        400));
+
+        displayHighScorePosition(
+                "Kierownick",
+                calculateHighScorePosition(
+                        50));
     }
 
     public static void displayHighScorePosition(String playersName, int position) {
